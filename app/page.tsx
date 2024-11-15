@@ -2,6 +2,40 @@ import { siteConfig } from "@/config/site-config";
 import Image from "next/image";
 import { ThemeToggle } from "@/components/theme-toggle";
 
+const GridItems = new Array(12).fill(0);
+const GridItems2 = [
+  {
+    className: "rounded-md bg-emerald-100- col-span-2 row-span-2",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-1 row-span-2",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-1 row-span-2",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-4",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
+  },
+  {
+    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
+  },
+];
+
 export default function Home() {
   return (
     <main className="flex flex-1  w-full h-full gap-10 ">
@@ -26,7 +60,7 @@ export default function Home() {
               {siteConfig.title}
             </div>
             {/*Full Name*/}
-            <h1 className="text-4xl font-bold"> {siteConfig.creator}</h1>
+            <h1 className="text-3xl font-bold"> {siteConfig.creator}</h1>
             {/*Bio*/}
             <p className="text-l font-light text-purple-300">
               {siteConfig.bio}
@@ -37,13 +71,21 @@ export default function Home() {
             {siteConfig.location}{" "}
           </a>
           {/*Footer*/}
+          <div className="pt-6 text-xs border-t border-neutral-200 dark:border-neutral-800 p-6 flex items-center justify-between">
+            <div>Built by Nani Skinner @naniskinner | 2024</div>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
 
       {/* Right Side */}
       <div className="flex-1 p-6 h-full">
-        <div className="flex items-center justify-center h-full rounded-md dark:bg-emerald-700">
-          Right Side
+        {/*Grid Container */}
+        <div className=" w-full h-full overflow-auto p-6 grid grid-cols-4 auto-row-[76px] gap-10">
+          {/*Gid Items*/}
+          {GridItems2.map((item, index) => {
+            return <div key={index} className={item.className} />;
+          })}
         </div>
       </div>
     </main>
