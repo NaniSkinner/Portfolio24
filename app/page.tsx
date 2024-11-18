@@ -1,40 +1,7 @@
 import { siteConfig } from "@/config/site-config";
 import Image from "next/image";
 import { ThemeToggle } from "@/components/theme-toggle";
-
-const GridItems = new Array(12).fill(0);
-const GridItems2 = [
-  {
-    className: "rounded-md bg-emerald-100- col-span-2 row-span-2",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-1 row-span-2",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-1 row-span-2",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-4",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-2",
-  },
-  {
-    className: "rounded-md bg-emerald-100 col-span-2 row-span-1",
-  },
-];
+import GridItem from "@/components/grid-item";
 
 export default function Home() {
   return (
@@ -83,8 +50,12 @@ export default function Home() {
         {/*Grid Container */}
         <div className=" w-full h-full overflow-auto p-6 grid grid-cols-4 auto-row-[76px] gap-10">
           {/*Gid Items*/}
-          {GridItems2.map((item, index) => {
-            return <div key={index} className={item.className} />;
+          {siteConfig.items.map((item, index) => {
+            return (
+              <GridItem key={item.title + index} size={item.layout}>
+                <div> {item.title}</div>
+              </GridItem>
+            );
           })}
         </div>
       </div>
