@@ -2,6 +2,7 @@ import { siteConfig } from "@/config/site-config";
 import Image from "next/image";
 import { ThemeToggle } from "@/components/theme-toggle";
 import GridItem from "@/components/grid-item";
+import SocialBox from "@/components/grid-items/social-box";
 
 export default function Home() {
   return (
@@ -53,6 +54,11 @@ export default function Home() {
           {siteConfig.items.map((item, index) => {
             return (
               <GridItem key={item.title + index} size={item.layout}>
+                {item.type === "social" ? (
+                  <SocialBox item={item} />
+                ) : (
+                  <div> Not implemented yet</div>
+                )}
                 <div> {item.title}</div>
               </GridItem>
             );

@@ -33,23 +33,23 @@ const GridItems: GridItemInterface[] = [
     type: "social",
     title: "Youtube",
     icon: "youtube",
-    username: "@makrdev",
+    username: "@GuiandoPodcast",
     description:
-      "My true passion is learning and sharing my knowledge, which is why I started creating Youtube videos about web development, startups, and marketing.",
+      "My hobby is to help parents on how to guide our children in our everyday adventures.",
     color: "#FF0000",
     buttonTitle: "Subscribe",
-    buttonLink: "https://www.youtube.com/@makrdev",
-    buttonSecondaryText: "1.1K",
+    buttonLink: "https://www.youtube.com/@GuiandoPodcastv",
+    buttonSecondaryText: "",
   },
   {
     layout: "1x2",
     type: "social",
     title: "Discord",
     icon: "discord",
-    username: "@makrdev",
-    buttonTitle: "Join",
-    buttonLink: "https://discord.com/invite/5aXRp49Q4h",
-    buttonSecondaryText: "44",
+    username: "@nani_skinner",
+    buttonTitle: "",
+    buttonLink: "",
+    buttonSecondaryText: "",
     color: "#5865F2",
   },
   {
@@ -57,10 +57,10 @@ const GridItems: GridItemInterface[] = [
     type: "social",
     title: "Github",
     icon: "github",
-    username: "@batuhanbilginn",
+    username: "@NaniSkinner",
     buttonTitle: "Follow",
-    buttonSecondaryText: "36",
-    buttonLink: "https://github.com/batuhanbilginn",
+    buttonSecondaryText: "",
+    buttonLink: "https://github.com/NaniSkinner",
     color: "#070707",
   },
   {
@@ -102,15 +102,14 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x2",
     type: "social",
-    title: "Twitter",
+    title: "X",
     icon: "twitter",
-    username: "@makrdev",
+    username: "@naniskinner",
     buttonTitle: "Follow",
-    buttonLink: "https://twitter.com/makrdev",
-    buttonSecondaryText: "279",
-    color: "#1DA1F2",
-    description:
-      "Full-stack Developer / I build AI applications and create video tutorials on Youtube.",
+    buttonLink: "https://x.com/NaniSkinner",
+    buttonSecondaryText: "",
+    color: "#000",
+    description: "🎙️ Podcast Host, Studying Web3 Engineering 💕 Mom of 2",
   },
   {
     layout: "2x1",
@@ -148,7 +147,7 @@ const GridItems: GridItemInterface[] = [
     username: "@batuhanbilginn",
     description:
       "Learn how to build a full-stack, multilingual and high performant blog website with Next.js 13.4 and Directus.",
-    icon: "udemy",
+    icon: "hashnode",
     buttonTitle: "Enroll",
     buttonSecondaryText: "%90 OFF",
     buttonLink:
@@ -166,10 +165,10 @@ const GridItems: GridItemInterface[] = [
 ];
 
 export const siteConfig = {
-  creator: "Batuhan Bilgin",
-  title: "Developer & Creator",
-  bio: "Building AI products and creating video tutorials on Youtube.",
-  location: "Istanbul, Turkey",
+  creator: "Nani Skinner",
+  title: "Technical Writter, Proyect Manager",
+  bio: "Hubby made me do this!",
+  location: "Earth 🌎",
   locationLink:
     "https://www.google.com/maps/place/Kad%C4%B1k%C3%B6y%2F%C4%B0stanbul/@40.981133,29.063053,12z/data=!3m1!4b1!4m6!3m5!1s0x14cac790b17ba89d:0xd2d24ea0437a7ee2!8m2!3d40.981867!4d29.0576302!16zL20vMDV5cWY4?entry=ttu",
   email: "batuhanbilginn@gmail.com",
