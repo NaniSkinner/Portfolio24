@@ -59,7 +59,6 @@ export default function Home() {
                 ) : (
                   <div> Not implemented yet</div>
                 )}
-                <div> {item.title}</div>
               </GridItem>
             );
           })}
