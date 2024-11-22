@@ -3,10 +3,13 @@ import Image from "next/image";
 import { ThemeToggle } from "@/components/theme-toggle";
 import GridItem from "@/components/grid-item";
 import SocialBox from "@/components/grid-items/social-box";
+import MentorshipBox from "@/components/grid-items/mentorship-box";
+import ProjectBox from "@/components/grid-items/project-box";
+import EquipmentsBox from "@/components/grid-items/equipments-box";
 
 export default function Home() {
   return (
-    <main className="flex flex-1  w-full h-full gap-10 ">
+    <main className="flex flex-1 w-full h-full gap-10">
       {/* Left Side */}
       <div className="flex-1 h-full max-w-md p-8">
         <div className="flex flex-col h-full rounded-md space-y-6">
@@ -56,8 +59,14 @@ export default function Home() {
               <GridItem key={item.title + index} size={item.layout}>
                 {item.type === "social" ? (
                   <SocialBox item={item} />
+                ) : item.type === "mentor" ? (
+                  <MentorshipBox item={item} />
+                ) : item.type === "project" ? (
+                  <ProjectBox item={item} />
+                ) : item.type === "equipment" ? (
+                  <EquipmentsBox item={item} />
                 ) : (
-                  <div> Not implemented yet</div>
+                  <div>Not implemented yet</div>
                 )}
               </GridItem>
             );
