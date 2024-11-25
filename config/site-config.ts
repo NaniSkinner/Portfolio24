@@ -67,7 +67,7 @@ const GridItems: GridItemInterface[] = [
     layout: "2x4",
     type: "equipment",
     title: "Video Equipments",
-    image: "/equipments-image.jpeg",
+    image: "/equipments-image.png",
     equipments: [
       {
         title: "Sony A7III",
