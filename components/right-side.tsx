@@ -2,7 +2,6 @@
 import { siteConfig } from "@/config/site-config";
 import GridItem from "./grid-item";
 import SocialBox from "@/components/grid-items/social-box";
-import MentorshipBox from "@/components/grid-items/mentorship-box";
 import ProjectBox from "@/components/grid-items/project-box";
 import EquipmentsBox from "@/components/grid-items/equipments-box";
 import { stagger, useAnimate } from "framer-motion";
@@ -42,8 +41,6 @@ const RightSide = () => {
           <GridItem key={item.title + item.type + index} size={item.layout}>
             {item.type === "social" ? (
               <SocialBox item={item} />
-            ) : item.type === "mentor" ? (
-              <MentorshipBox item={item} />
             ) : item.type === "project" ? (
               <ProjectBox item={item} />
             ) : item.type === "equipment" ? (
