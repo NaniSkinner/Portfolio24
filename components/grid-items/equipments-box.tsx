@@ -4,30 +4,28 @@ import Link from "next/link";
 
 const EquipmentsBox = ({ item }: { item: GridItemInterface }) => {
   return (
-    <div className="flex flex-col justify-end w-full h-full rounded-3xl overflow-hidden">
+    <div className="flex flex-col items-end justify-end w-full h-full overflow-hidden rounded-3xl">
       {/* Overlay */}
-      <div className="absolute insert-0 z-10 bg-gradient-to-b from-transparent via-neutral-950/60 to-neutral-900/90"></div>
-      {/*Background Image */}
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent via-neutral-950/60 to-neutral-950/90" />
+      {/* Image */}
       <Image
-        className="object-center object-cover"
-        fill
+        className="z-0 object-cover object-center w-full h-full"
         src={item.image ?? ""}
-        alt="bg-image"
+        alt="equipments"
+        fill
       />
-      {/* Content Container */}
-      <div className="relative z-20 p-8">
-        {/* Title */}
-        <div className="text-medium text-sm text-white mb-3">{item.title}</div>
-        {/* Items*/}
+      {/* Content */}
+      <div className="relative z-20 w-full p-4 space-y-3 md:p-8">
+        <div className="text-sm font-medium text-white">{item.title}</div>
         <div className="flex flex-wrap items-center gap-3">
-          {item.equipments?.map((equipements) => {
+          {item.equipments?.map((equipment, index) => {
             return (
               <Link
-                className="px-2 py-1 font-sm bg-white rounded-lg dark:bg-neutral-900 "
-                key={equipements.link}
-                href={equipements.link}
+                className="px-2 py-1 text-sm font-medium bg-white rounded-lg dark:bg-neutral-900"
+                key={equipment.link + index}
+                href={equipment.link}
               >
-                {equipements.title}
+                {equipment.title}
               </Link>
             );
           })}
