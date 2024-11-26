@@ -25,7 +25,7 @@ const LeftSide = () => {
         </div>
         {/* Text Container */}
         <div className="mt-6">
-          <div className="text-xl font-medium text-primary">
+          <div className="text-xl font-medium text-purple-700">
             {siteConfig.title}
           </div>
           <h1 className="mt-2 text-4xl font-bold">{siteConfig.creator}</h1>
@@ -46,12 +46,12 @@ const LeftSide = () => {
             href={`mailto:${siteConfig.email}`}
             className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
           >
-            <Mail size="14" />
+            <Mail size="12" />
             Contact Me
           </a>
         </div>
         {/*Footer*/}
-        <div className="hidden xl:flex">
+        <div className="hidden xl:flex text-neutral-700 tex-sm">
           <Footer />
         </div>
       </div>
