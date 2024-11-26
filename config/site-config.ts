@@ -66,36 +66,32 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x4",
     type: "equipment",
-    title: "Video Equipments",
+    title: "Video Equipment",
     image: "/equipments-image.png",
     equipments: [
       {
-        title: "Sony A7III",
-        link: "https://www.amazon.com/Sony-Full-frame-Mirrorless-Interchangeable-Lens-ILCE7M3K/dp/B07B45D8WV?&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=f91877e8350da1e43b161adac6e9a6d7&camp=1789&creative=9325",
+        title: "Sony A7RIII",
+        link: "https://amzn.to/3BO6MEM",
       },
       {
-        title: "Tamron 24-75mm Sony-E Mount",
-        link: "https://www.amazon.com/s?k=tamron+24-75+f2.8+sony+e+mount&sprefix=tamron+24-75%252Caps%252C215&ref=nb_sb_ss_ts-doa-p_1_12&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7f90fb483df302e8131afea2f4cd89bb&camp=1789&creative=9325",
+        title: "Sony 70-200 f2.8 GM Lens",
+        link: "https://amzn.to/48q53Sp",
       },
       {
-        title: "Thronmax Mdrill One Pro",
-        link: "https://www.amazon.com/s?k=thronmax+mdrill+one+pro&sprefix=thronmax%252Caps%252C213&ref=nb_sb_ss_ts-doa-p_7_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=ffb6dc2e55c74508300d2c5eac250e1e&camp=1789&creative=9325",
+        title: "DJI Mic 1",
+        link: "https://amzn.to/3Yr7TmK",
       },
       {
-        title: "Godox SL-60W",
-        link: "https://www.amazon.com/s?k=godox+sl60&crid=2OZLC933LK7K0&sprefix=godox+sl60%252Caps%252C213&ref=nb_sb_noss_1&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=a9fcedfbfaff1bb1301c303a45055038&camp=1789&creative=9325",
+        title: "VICTIV 80in. Camera Tripod",
+        link: "https://amzn.to/3BMTMz5",
       },
       {
-        title: "Godox Umbrella Reflector Honeycom Grid",
-        link: "https://www.amazon.com/Godox-Umbrella-Reflector-Honeycomb-Speedlight/dp/B07H91VH4M/ref=sr_1_19?crid=3UE8NBEUUB1PI&keywords=godox+sl60+softbox&qid=1687880313&sprefix=godox+sl60+%252Caps%252C207&sr=8-19&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=7cb2f6734c70d44a3491266b50eac29c&camp=1789&creative=9325",
+        title: "SHIRTAL 37in.Softbox Lighting Kit",
+        link: "https://amzn.to/3BY7pve",
       },
       {
-        title: "Godox M1 RGB",
-        link: "https://www.amazon.com/s?k=godox+m1+rgb&crid=2UBYBKYSIYMDW&sprefix=godox+m1+rg%252Caps%252C199&ref=nb_sb_noss_2&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=3da7371f710f9f4f6af4f5817acc728a&camp=1789&creative=9325",
-      },
-      {
-        title: "Elgato Camlink 4K",
-        link: "https://www.amazon.com/s?k=camlink+4k%252B&sprefix=Camlink+%252Caps%252C210&ref=nb_sb_ss_ts-doa-p_1_8&_encoding=UTF8&tag=makrdev-20&linkCode=ur2&linkId=c95eae861d4db5e1de4ebda68507fbda&camp=1789&creative=9325",
+        title: "Papeaso 4K Video Capture Card",
+        link: "https://amzn.to/3BJfIel",
       },
     ],
   },
