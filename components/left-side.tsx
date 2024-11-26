@@ -15,7 +15,7 @@ const LeftSide = () => {
         <div>
           <Image
             className="rounded-3xl"
-            src="/img_5945.png"
+            src="/pfp.png"
             width="120"
             height="120"
             alt="Nani Skinner PFP"
