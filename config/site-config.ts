@@ -136,19 +136,18 @@ const GridItems: GridItemInterface[] = [
   //   buttonLink: "https://github.com/batuhanbilginn/makr-ai",
   //   stars: 73,
   // },
-  // {
-  //   layout: "2x2",
-  //   type: "social",
-  //   title: "Full-stack Multilingual Blog with Next.js 13",
-  //   username: "@batuhanbilginn",
-  //   description:
-  //     "Learn how to build a full-stack, multilingual and high performant blog website with Next.js 13.4 and Directus.",
-  //   icon: "hashnode",
-  //   buttonTitle: "Enroll",
-  //   buttonSecondaryText: "%90 OFF",
-  //   buttonLink:
-  //     "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
-  // },
+  {
+    layout: "2x2",
+    type: "social",
+    title:
+      "Parenting and Programming: Finding Time to Learn Web3 as a Busy Mom",
+    username: "",
+    description: "Wife, Mom, Crossfitter, talking about life and tech stuff ",
+    icon: "hashnode",
+    buttonTitle: "Subscribe",
+    buttonSecondaryText: "",
+    buttonLink: "https://blog.naniskinner.com/",
+  },
   // {
   //   layout: "2x1",
   //   type: "project",
