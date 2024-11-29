@@ -38,7 +38,7 @@ const GridItems: GridItemInterface[] = [
       "My hobby is to help parents on how to guide our children in our everyday adventures.",
     color: "#FF0000",
     buttonTitle: "Subscribe",
-    buttonLink: "https://www.youtube.com/@GuiandoPodcastv",
+    buttonLink: "https://youtube.com/@guiandopodcast?si=v-zlcEWphfct8BnU",
     buttonSecondaryText: "",
   },
   {
