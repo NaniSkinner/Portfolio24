@@ -105,7 +105,8 @@ const GridItems: GridItemInterface[] = [
     buttonLink: "https://x.com/NaniSkinner",
     buttonSecondaryText: "",
     color: "#000",
-    description: "🎙️ Podcast Host, Studying Web3 Engineering 💕 Mom of 2",
+    description:
+      "🎥 Technical Content Creator 🦸🏻‍♀️ Developer Advocate 💕 Mom of 2",
   },
   // {
   //   layout: "2x1",
@@ -161,7 +162,7 @@ const GridItems: GridItemInterface[] = [
 
 export const siteConfig = {
   creator: "Nani Skinner",
-  title: "Technical Writter | Proyect Manager",
+  title: "Technical Writter | Project Manager",
   bio: "Former Montessori educator turned Frontend Engeneer | Currently building in Web3",
   location: "Earth 🌎",
   locationLink:
