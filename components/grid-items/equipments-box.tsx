@@ -16,8 +16,8 @@ const EquipmentsBox = ({ item }: { item: GridItemInterface }) => {
       />
       {/* Content */}
       <div className="relative z-20 w-full p-4 space-y-3 md:p-8">
-        <div className="text-sm font-medium text-white">{item.title}</div>
-        <div className="flex flex-wrap items-center gap-3">
+        <div className="text-lg font-bold text-white">{item.title}</div>
+        <div className="flex flex-wrap items-center gap-3 mt-32">
           {item.equipments?.map((equipment, index) => {
             return (
               <Link

@@ -33,13 +33,24 @@ const GridItems: GridItemInterface[] = [
     type: "social",
     title: "Youtube",
     icon: "youtube",
-    username: "@GuiandoPodcast",
+    username: "@Nanidoestech",
     description:
-      "My hobby is to help parents on how to guide our children in our everyday adventures.",
+      "This channel is all about learning in public — one short, spark-filled video at a time.",
     color: "#FF0000",
     buttonTitle: "Subscribe",
-    buttonLink: "https://youtube.com/@guiandopodcast?si=v-zlcEWphfct8BnU",
+    buttonLink: "https://www.youtube.com/@Nanidoestech",
     buttonSecondaryText: "",
+  },
+  {
+    layout: "2x4",
+    type: "project",
+    title: "Minds, Matcha & Machines",
+    description:
+      "A mini series of just 1 min videos to spark your learning journey",
+    buttonTitle: "Watch Series",
+    buttonLink: "https://www.youtube.com/@Nanidoestech",
+    buttonSecondaryText: "",
+    image: "/minds-matcha-machines.png",
   },
   {
     layout: "1x2",
@@ -47,9 +58,8 @@ const GridItems: GridItemInterface[] = [
     title: "Discord",
     icon: "discord",
     username: "@nani_skinner",
-    buttonTitle: "",
+    buttonTitle: "Let's Chat",
     buttonLink: "",
-    buttonSecondaryText: "",
     color: "#5865F2",
   },
   {
@@ -98,15 +108,14 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x2",
     type: "social",
-    title: "X",
+    title: "NANI",
     icon: "twitter",
     username: "@naniskinner",
     buttonTitle: "Follow",
     buttonLink: "https://x.com/NaniSkinner",
     buttonSecondaryText: "",
     color: "#000",
-    description:
-      "🎥 Technical Content Creator 🦸🏻‍♀️ Developer Advocate 💕 Mom of 2",
+    description: "Developer Advocate | Creator of Minds, Matcha, & Machines 🍵",
   },
   // {
   //   layout: "2x1",
@@ -140,14 +149,14 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x2",
     type: "social",
-    title:
-      "Parenting and Programming: Finding Time to Learn Web3 as a Busy Mom",
+    title: "Bridging Blockchains with Wormhole: My Curious Journey",
     username: "",
     description: "Wife, Mom, Crossfitter, talking about life and tech stuff ",
     icon: "hashnode",
     buttonTitle: "Subscribe",
     buttonSecondaryText: "",
     buttonLink: "https://blog.naniskinner.com/",
+    color: "#ffffff",
   },
   // {
   //   layout: "2x1",
@@ -162,8 +171,8 @@ const GridItems: GridItemInterface[] = [
 
 export const siteConfig = {
   creator: "Nani Skinner",
-  title: "Technical Writter | Project Manager",
-  bio: "Former Montessori educator turned Frontend Engeneer | Currently building in Web3",
+  title: "DevRel Advocate | Web3 Content Creator",
+  bio: "From Montessori educator to Web3 builder | Engineer-in-training | Passionate about dev education, community, and making tech more human one block at a time",
   location: "Earth 🌎",
   locationLink:
     "https://www.google.com/maps/place/Geography+of+Nauru/@-0.5499785,166.906367,15z/data=!3m1!4b1!4m6!3m5!1s0x6f7d1e7fc04bb389:0x274a74be85b3409d!8m2!3d-0.55!4d166.9166667!16s%2Fm%2F011b946t?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D",

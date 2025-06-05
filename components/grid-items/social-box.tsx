@@ -33,13 +33,15 @@ const SocialBox = ({ item }: { item: GridItemInterface }) => {
         )}
       </div>
       {/* Button */}
-      {item.layout === "1x2" && (
-        <div className="mt-2">
-          <Button
-            text={item.buttonTitle ?? ""}
-            secondaryText={item.buttonSecondaryText}
-            color={item.color}
-          />
+      {item.layout === "1x2" && item.buttonTitle && (
+        <div className="mt-2 flex justify-start">
+          <div className="ml-[-8px]">
+            <Button
+              text={item.buttonTitle ?? ""}
+              secondaryText={item.buttonSecondaryText}
+              color={item.color}
+            />
+          </div>
         </div>
       )}
     </Link>
